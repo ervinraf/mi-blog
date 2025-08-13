@@ -2,7 +2,11 @@ title: "Ervin Raf | Blog Tech"
 description: "Tecnología, Apple, Microsoft y ciberseguridad"
 url: "https://miblog.pcsupportslp.com"
 baseurl: ""  # Si tu blog está en la raíz del dominio, déjalo vacío
-
+header:
+  image: "/assets/images/header.jpg"
+  overlay_color: "#000"
+  overlay_filter: "0.3"
+  caption: "Tecnología, seguridad y ecosistemas Apple/Microsoft"
 remote_theme: "mmistakes/minimal-mistakes"
 plugins:
   - jekyll-include-cache
