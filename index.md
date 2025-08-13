@@ -1,7 +1,8 @@
 ---
 layout: home
 title: "Blog de Tecnología y Seguridad Digital"
-excerpt: "Explorando Apple, Microsoft, ciberseguridad y herramientas modernas"
+author_profile: true
+---
 header:
   image: "/assets/images/header.jpg"
   overlay_color: "#000"
