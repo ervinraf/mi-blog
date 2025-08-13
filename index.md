@@ -1,5 +1,6 @@
 ---
-title: "Inicio"
+layout: home
+title: "Blog de Tecnología y Seguridad Digital"
 header:
   image: "/assets/images/header.jpg"
   overlay_color: "#000"
@@ -12,8 +13,9 @@ header:
 
 Bienvenido a mi espacio técnico. Aquí encontrarás análisis, guías y recursos sobre:
 
-- 🖥️ Tecnología Apple y Microsoft
-- 🔐 Ciberseguridad y amenazas emergentes
-- ⚙️ Herramientas como VPN, Cloudflare, GitHub y Jekyll
+- 🍎 Apple: ecosistema, configuraciones y novedades
+- 🪟 Microsoft: productividad, seguridad y herramientas
+- 🔐 Seguridad digital: buenas prácticas y protección de datos
+- 🌐 VPN: privacidad, navegación segura y acceso remoto
 
-> Este blog está optimizado para una experiencia visual clara, profesional y en modo oscuro.
+Este blog está diseñado para ofrecer una experiencia clara, profesional y en modo oscuro. ¡Explora y aprende!
