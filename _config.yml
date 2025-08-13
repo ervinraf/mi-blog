@@ -3,7 +3,6 @@ description: "Tecnología, Apple, Microsoft y ciberseguridad"
 url: "https://miblog.pcsupportslp.com"
 baseurl: ""  # Si tu blog está en la raíz del dominio, déjalo vacío
 header:
-nav: true
   image: "/assets/images/header.jpg"
   overlay_color: "#000"
   overlay_filter: "0.3"
@@ -22,3 +21,8 @@ navigation:
     url: "/seguridad/"
   - title: "VPN"
     url: "/vpn/"
+header_pages:
+  - apple.md
+  - microsoft.md
+  - seguridad.md
+  - vpn.md
