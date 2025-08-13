@@ -3,8 +3,9 @@ layout: home
 title: "Blog de Tecnología y Seguridad Digital"
 excerpt: "Explorando Apple, Microsoft, ciberseguridad y herramientas modernas"
 header:
-  overlay_image: /assets/images/marquesina-tech.jpg
-  overlay_filter: 0.3
+  image: "/assets/images/header.jpg"
+  overlay_color: "#000"
+  overlay_filter: "0.3"
   caption: "Tecnología que inspira confianza"
   actions:
     - label: "Ver artículos"
