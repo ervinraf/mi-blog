@@ -12,18 +12,24 @@ plugins:
   - jekyll-include-cache
 skin: "dark"
 
-header_pages:
-  - apple.md
-  - microsoft.md
-  - seguridad.md
-  - vpn.md
-  
+collections:
+  pages:
+    output: true
+    permalink: /:title/
+
+defaults:
+  - scope:
+      path: ""
+      type: pages
+    values:
+      layout: single
+
 navigation:
   - title: "Apple"
-    url: "/apple/"
+    url: /apple/
   - title: "Microsoft"
-    url: "/microsoft/"
+    url: /microsoft/
   - title: "Seguridad"
-    url: "/seguridad/"
+    url: /seguridad/
   - title: "VPN"
-    url: "/vpn/"
+    url: /vpn/
