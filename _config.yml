@@ -1,0 +1,23 @@
+title: "Ervin Raf | Blog Tech"
+description: "Tecnología, Apple, Microsoft y ciberseguridad"
+url: "https://TU_DOMINIO"
+baseurl: ""
+
+remote_theme: "mmistakes/minimal-mistakes"
+plugins:
+  - jekyll-include-cache
+skin: "dark"
+
+navigation:
+  - title: "Inicio"
+    url: "/"
+  - title: "Apple"
+    url: "/apple/"
+  - title: "Microsoft"
+    url: "/microsoft/"
+  - title: "Seguridad"
+    url: "/seguridad/"
+  - title: "VPN"
+    url: "/vpn/"
+  - title: "Acerca de"
+    url: "/about/"
