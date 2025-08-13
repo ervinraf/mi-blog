@@ -1,5 +1,5 @@
 ---
-layout: home
+layout: splash
 title: "Blog de Tecnología y Seguridad Digital"
 header:
   image: "/assets/images/header.jpg"
