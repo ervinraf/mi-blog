@@ -1,13 +1,12 @@
+---
+title: "Apple"
+layout: single
+permalink: /apple/
 header:
   image: "/assets/images/apple-header.jpg"
   overlay_color: "#000"
   overlay_filter: "0.3"
   caption: "Innovación con el sello de Apple"
-
----
-layout: single
-title: "Apple"
-permalink: /apple/
 ---
 
 Explora el ecosistema Apple: macOS, iOS, hardware, software y seguridad.  
