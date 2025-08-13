@@ -1,8 +1,5 @@
 ---
-layout: home
-title: "Blog de Tecnología y Seguridad Digital"
-author_profile: true
----
+title: "Inicio"
 header:
   image: "/assets/images/header.jpg"
   overlay_color: "#000"
