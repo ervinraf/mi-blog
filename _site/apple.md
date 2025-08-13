@@ -1,7 +1,8 @@
 header:
-  overlay_image: /assets/images/apple-banner.jpg
-  overlay_filter: 0.3
-  caption: "Tecnología Apple: diseño, rendimiento y seguridad"
+  image: "/assets/images/apple-header.jpg"
+  overlay_color: "#000"
+  overlay_filter: "0.3"
+  caption: "Innovación con el sello de Apple"
 
 ---
 layout: single
