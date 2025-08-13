@@ -13,8 +13,6 @@ plugins:
 skin: "dark"
 
 navigation:
-  - title: "Inicio"
-    url: "/"
   - title: "Apple"
     url: "/apple/"
   - title: "Microsoft"
@@ -23,5 +21,3 @@ navigation:
     url: "/seguridad/"
   - title: "VPN"
     url: "/vpn/"
-  - title: "Acerca de"
-    url: "/about/"
