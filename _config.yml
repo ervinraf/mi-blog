@@ -11,11 +11,13 @@ remote_theme: "mmistakes/minimal-mistakes"
 plugins:
   - jekyll-include-cache
 skin: "dark"
+
 header_pages:
   - apple.md
   - microsoft.md
   - seguridad.md
   - vpn.md
+  
 navigation:
   - title: "Apple"
     url: "/apple/"
