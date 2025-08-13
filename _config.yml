@@ -21,8 +21,3 @@ navigation:
     url: "/seguridad/"
   - title: "VPN"
     url: "/vpn/"
-header_pages:
-  - apple.md
-  - microsoft.md
-  - seguridad.md
-  - vpn.md
