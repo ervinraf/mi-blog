@@ -12,5 +12,6 @@ header:
 Explora el ecosistema Apple: macOS, iOS, hardware, software y seguridad.  
 Aquí compartiré análisis, configuraciones, recomendaciones y novedades sobre productos Apple.
 
-[📝 Ver reseña del Apple Vision Pro](/2025/08/14/apple-vision-pro-review/)
+{% assign post = site.posts | where: "title", "Apple Vision Pro: ¿Revolución o exageración?" | first %}
+[📄 Ver reseña del Apple Vision Pro]({{ post.url | relative_url }})
 
