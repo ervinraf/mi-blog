@@ -1,4 +1,5 @@
 ---
+layout: post
 title: "Apple Vision Pro: ¿Revolución o exageración?"
 date: 2025-08-14
 categories: [apple]
