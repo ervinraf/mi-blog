@@ -1,33 +1,86 @@
+# ─────────────────────────────────────────────
+# 🧠 Información general del sitio
 title: "Ervin Raf | Blog Tech"
 description: "Tecnología, Apple, Microsoft y ciberseguridad"
 url: "https://miblog.pcsupportslp.com"
 baseurl: ""  # Si tu blog está en la raíz del dominio, déjalo vacío
+
+# ─────────────────────────────────────────────
+# 🎨 Tema y apariencia
+remote_theme: "mmistakes/minimal-mistakes"
+skin: "dark"
+fontawesome: true
+
+# ─────────────────────────────────────────────
+# 🖼️ Encabezado visual (marquesina)
 header:
   image: "/assets/images/header.jpg"
   overlay_color: "#000"
   overlay_filter: "0.3"
   caption: "Tecnología, seguridad y ecosistemas Apple/Microsoft"
-remote_theme: "mmistakes/minimal-mistakes"
+
+# ─────────────────────────────────────────────
+# 🔌 Plugins
 plugins:
   - jekyll-include-cache
-skin: "dark"
 
+# ─────────────────────────────────────────────
+# 📁 Colecciones personalizadas
 collections:
   pages:
     output: true
+
+# ─────────────────────────────────────────────
+# 🧰 Configuración por defecto
 defaults:
   - scope:
       path: ""
       type: "pages"
     values:
       layout: single
+      author_profile: true
+      read_time: true
+      share: true
+      comments: false
 
+# ─────────────────────────────────────────────
+# 🧭 Navegación superior con íconos
 navigation:
+  - title: "Inicio"
+    url: /
+    icon: "fas fa-home"
+
   - title: "Apple"
     url: /apple/
+    icon: "fab fa-apple"
+
   - title: "Microsoft"
     url: /microsoft/
+    icon: "fab fa-windows"
+
   - title: "Seguridad"
     url: /seguridad/
+    icon: "fas fa-shield-alt"
+
   - title: "VPN"
     url: /vpn/
+    icon: "fas fa-lock"
+
+# ─────────────────────────────────────────────
+# 👤 Autor (puedes personalizarlo más adelante)
+author:
+  name: "Ervin Raf"
+  avatar: "/assets/images/avatar.jpg"
+  bio: "Apasionado por la tecnología, la seguridad digital y el ecosistema Apple/Microsoft."
+  location: "San Pedro Garza García, México"
+  email: "tuemail@ejemplo.com"
+  links:
+    - label: "GitHub"
+      icon: "fab fa-github"
+      url: "https://github.com/ervinraf"
+    - label: "LinkedIn"
+      icon: "fab fa-linkedin"
+      url: "https://linkedin.com/in/ervinraf"
+    - label: "Contacto"
+      icon: "fas fa-envelope"
+      url: "/contacto/"
