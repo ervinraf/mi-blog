@@ -1,4 +1,7 @@
 ---
+title: "Microsoft"
+layout: single
+permalink: /microsoft/
 header:
   image: "/assets/images/microsoft-header.jpg"
   overlay_color: "#000"

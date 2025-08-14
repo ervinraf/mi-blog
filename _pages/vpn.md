@@ -1,4 +1,7 @@
 ---
+title: "VPN"
+layout: single
+permalink: /vpn/
 header:
   image: "/assets/images/vpn-header.jpg"
   overlay_color: "#000"

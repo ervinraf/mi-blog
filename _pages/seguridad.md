@@ -1,4 +1,7 @@
 ---
+title: "Seguridad"
+layout: single
+permalink: /seguridad/
 header:
   image: "/assets/images/seguridad-header.jpg"
   overlay_color: "#000"
