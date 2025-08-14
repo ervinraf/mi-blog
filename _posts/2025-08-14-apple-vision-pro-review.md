@@ -57,5 +57,5 @@ Desde el punto de vista de seguridad y rendimiento, el Vision Pro plantea nuevos
 Apple sigue empujando los límites de la innovación. El Vision Pro es una apuesta audaz, pero su éxito dependerá de la adopción masiva, el desarrollo de apps y la evolución del ecosistema XR.
 
 ---
-
+{% include nav-apple.html %}
 
