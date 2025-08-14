@@ -40,22 +40,25 @@
   font-size: 0.9rem;
   text-align: center;
 }
-.post-nav {
-  display: flex;
-  gap: 1rem;
-  margin: 2rem 0;
-  flex-wrap: wrap;
-}
 .nav-btn {
   background-color: #222;
   color: #00bfff;
-  padding: 0.6rem 1rem;
+  padding: 0.8rem 1.2rem;
   border-radius: 6px;
   text-decoration: none;
   font-weight: bold;
+  font-size: 1.1rem; /* Aumenta tamaño del texto */
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
   transition: background 0.3s ease;
 }
+
 .nav-btn:hover {
   background-color: #00bfff;
   color: #fff;
+}
+
+.nav-btn::before {
+  font-size: 1.4rem; /* Aumenta tamaño del ícono */
 }
