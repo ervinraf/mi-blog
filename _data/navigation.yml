@@ -1,0 +1,11 @@
+#
+//  navigation.yml
+//  
+//
+//  Created by Ervin Rafael Zanabria on 14/08/25.
+//
+
+
+- title: Apple
+  url: /apple/
+  icon: fa-brands fa-apple
