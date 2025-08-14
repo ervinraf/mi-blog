@@ -77,10 +77,10 @@ author:
   links:
     - label: "GitHub"
       icon: "fab fa-github"
-      url: "https://github.com/ervinraf"
+      url: "#"
     - label: "LinkedIn"
       icon: "fab fa-linkedin"
-      url: "https://linkedin.com/in/ervinraf"
+      url: "#"
     - label: "Contacto"
       icon: "fas fa-envelope"
       url: "/contacto/"
