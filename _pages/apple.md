@@ -12,4 +12,5 @@ header:
 Explora el ecosistema Apple: macOS, iOS, hardware, software y seguridad.  
 Aquí compartiré análisis, configuraciones, recomendaciones y novedades sobre productos Apple.
 
-<a href="https://miblog.pcsupportslp.com/2025/08/14/apple-vision-pro-review/" class="btn btn--primary">📝 Leer el artículo completo</a>
+<a href="https://miblog.pcsupportslp.com/2025-08-14-apple-vision-pro-review.md/" class="btn btn--primary">📝 Leer el artículo completo</a>
+
