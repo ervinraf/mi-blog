@@ -1,6 +1,6 @@
 ---
-layout: post
 title: "Apple Vision Pro: ¿Revolución o exageración?"
+layout: post
 date: 2025-08-14
 categories: [apple]
 tags: [vision-pro, realidad-mixta, apple]
