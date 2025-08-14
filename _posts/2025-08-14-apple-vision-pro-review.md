@@ -14,6 +14,14 @@ header:
   show_overlay_excerpt: true
 ---
 
+<div class="post-nav">
+  <a href="/" class="nav-btn">🏠 Inicio</a>
+  <a href="/apple/" class="nav-btn">🍏 Sección Apple</a>
+  <a href="javascript:history.back()" class="nav-btn">🔙 Regresar</a>
+</div>
+
+---
+
 ## Introducción
 
 Apple ha lanzado su dispositivo más ambicioso: el **Vision Pro**. ¿Es realmente una revolución en la computación espacial o solo una promesa más?
@@ -24,10 +32,10 @@ Este artículo analiza sus características, implicaciones técnicas y el impact
 
 ## 🔍 Características clave
 
-- 🎯 Pantalla micro-OLED con resolución ultra alta
-- 🧠 Control por gestos, voz y mirada
-- 🔗 Integración con iOS, macOS y servicios Apple
-- 🔒 Enfoque en privacidad con seguimiento ocular cifrado
+- 🎯 Pantalla micro-OLED con resolución ultra alta  
+- 🧠 Control por gestos, voz y mirada  
+- 🔗 Integración con iOS, macOS y servicios Apple  
+- 🔒 Enfoque en privacidad con seguimiento ocular cifrado  
 
 ---
 
@@ -35,9 +43,9 @@ Este artículo analiza sus características, implicaciones técnicas y el impact
 
 Desde el punto de vista de seguridad y rendimiento, el Vision Pro plantea nuevos retos:
 
-- **Privacidad ocular**: ¿cómo se protege la información visual?
-- **Desarrollo XR**: ¿está Apple realmente lista para liderar en realidad mixta?
-- **Consumo energético**: ¿cómo afecta la autonomía en uso prolongado?
+- **Privacidad ocular**: ¿cómo se protege la información visual?  
+- **Desarrollo XR**: ¿está Apple realmente lista para liderar en realidad mixta?  
+- **Consumo energético**: ¿cómo afecta la autonomía en uso prolongado?  
 
 ---
 
@@ -57,5 +65,5 @@ Desde el punto de vista de seguridad y rendimiento, el Vision Pro plantea nuevos
 Apple sigue empujando los límites de la innovación. El Vision Pro es una apuesta audaz, pero su éxito dependerá de la adopción masiva, el desarrollo de apps y la evolución del ecosistema XR.
 
 ---
-{% include nav-apple.html %}
 
+{% include nav-apple.html %}
