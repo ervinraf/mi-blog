@@ -15,12 +15,10 @@ skin: "dark"
 collections:
   pages:
     output: true
-    permalink: /:title/
-
 defaults:
   - scope:
       path: ""
-      type: pages
+      type: "pages"
     values:
       layout: single
 
