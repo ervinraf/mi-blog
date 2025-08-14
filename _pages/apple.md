@@ -1,6 +1,6 @@
 ---
 title: "Apple"
-layout: archive
+layout: posts
 permalink: /apple/
 header:
   image: "/assets/images/apple-header.jpg"
