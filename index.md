@@ -47,7 +47,4 @@ Este blog está diseñado para ofrecer una experiencia clara, profesional y en m
 
 {% include feature_row %}
 
-{% if page.url contains '/seguridad/' %}
-  {% include nav-seguridad.html %}
-{% endif %}
 

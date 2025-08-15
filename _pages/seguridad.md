@@ -12,3 +12,6 @@ header:
 Ciberseguridad, protección de datos, firewalls, antivirus y buenas prácticas digitales.  
 Aquí encontrarás contenido técnico y práctico para proteger tus sistemas y tu privacidad.
 
+{% if page.url contains '/seguridad/' %}
+  {% include nav-seguridad.html %}
+{% endif %}
