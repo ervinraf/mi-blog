@@ -1,0 +1,22 @@
+<div class="section-grid dark-theme">
+  <h2 class="section-title">🛡️ Seguridad Digital</h2>
+  <p class="section-description">Explora los artículos más recientes sobre ciberseguridad, arquitectura Zero Trust y amenazas emergentes en la nube.</p>
+
+  <div class="grid-container">
+    {% assign seguridad_posts = site.categories.Seguridad | sort: 'date' | reverse %}
+    {% for post in seguridad_posts %}
+      <a href="{{ post.url }}" class="grid-item">
+        <img src="{{ post.image | default: '/assets/default-banner.png' }}" alt="{{ post.title }}">
+        <div class="grid-overlay">
+          <h3>{{ post.title }}</h3>
+          <p>{{ post.description | default: post.excerpt }}</p>
+          <span class="grid-tag">
+            {% for tag in post.tags limit: 3 %}
+              {{ tag }}{% unless forloop.last %} · {% endunless %}
+            {% endfor %}
+          </span>
+        </div>
+      </a>
+    {% endfor %}
+  </div>
+</div>
