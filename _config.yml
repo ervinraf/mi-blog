@@ -7,9 +7,9 @@ baseurl: ""  # Si tu blog está en la raíz del dominio, déjalo vacío
 
 # ─────────────────────────────────────────────
 # 🎨 Tema y apariencia
-remote_theme: cotes2020/jekyll-theme-chirpy
-lang: es-MX
-theme_mode: dark
+remote_theme: "mmistakes/minimal-mistakes"
+skin: "dark"
+fontawesome: true
 
 # ─────────────────────────────────────────────
 # 🖼️ Encabezado visual (marquesina)
