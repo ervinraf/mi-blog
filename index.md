@@ -46,5 +46,8 @@ Bienvenido a mi espacio técnico. Aquí encontrarás análisis, guías y recurso
 Este blog está diseñado para ofrecer una experiencia clara, profesional y en modo oscuro. ¡Explora y aprende!
 
 {% include feature_row %}
-{% include nav-seguridad.html %}
+
+{% if page.url contains '/seguridad/' %}
+  {% include nav-seguridad.html %}
+{% endif %}
 
