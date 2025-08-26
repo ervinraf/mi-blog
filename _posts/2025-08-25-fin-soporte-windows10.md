@@ -13,7 +13,7 @@ header:
   overlay_filter: "0.3"
   show_overlay_excerpt: true
   
-  
+  ---
   <div class="post-nav">
   <a href="/" class="nav-btn">🏠 Inicio</a>
   <a href="/microsoft/" class="nav-btn">🪟 Sección Microsoft</a>
