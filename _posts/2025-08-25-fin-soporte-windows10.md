@@ -92,3 +92,4 @@ Microsoft exige TPM 2.0, Secure Boot y CPU moderna. Si no cumples:
 ## 🧭 Navegación relacionada
 
 {% include nav-microsoft.html %}
+ 
