@@ -45,6 +45,16 @@ Bienvenido a mi espacio técnico. Aquí encontrarás análisis, guías y recurso
 
 Este blog está diseñado para ofrecer una experiencia clara, profesional y en modo oscuro. ¡Explora y aprende!
 
+<div id="visitas">Visitantes: cargando...</div>
+
+<script>
+  fetch('https://api.countapi.xyz/hit/pcsupportslp.com/visitas')
+    .then(res => res.json())
+    .then(data => {
+      document.getElementById('visitas').innerText = 'Visitantes: ' + data.value;
+    });
+</script>
+
 {% include feature_row %}
 
 

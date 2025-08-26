@@ -138,3 +138,12 @@
   background-color: #00bfff;
   color: #fff;
 }
+#visitas {
+  font-size: 1.2rem;
+  color: #00bfff;
+  background-color: #111;
+  padding: 0.5rem 1rem;
+  border-radius: 6px;
+  display: inline-block;
+  margin-top: 1rem;
+}
