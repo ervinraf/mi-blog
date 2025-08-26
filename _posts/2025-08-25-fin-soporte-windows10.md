@@ -126,6 +126,8 @@ Tu PC con Windows 10 seguirá funcionando, pero **quedará expuesto a vulnerabil
 El fin de soporte de Windows 10 **no es el fin del mundo**, pero sí un punto crítico.  
 Tienes opciones, pero necesitas actuar con estrategia, respaldo y visión técnica.
 
+Mas informacion escribenos: soporte@pcsupportslp.com
+
 ---
 
 
