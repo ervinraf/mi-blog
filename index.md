@@ -43,8 +43,6 @@ Bienvenido a mi espacio técnico. Aquí encontrarás análisis, guías y recurso
 - 🔐 Seguridad digital: buenas prácticas y protección de datos  
 - 🌐 VPN: privacidad, navegación segura y acceso remoto  
 
-Este blog está diseñado para ofrecer una experiencia clara, profesional y en modo oscuro. ¡Explora y aprende!
-
 <div id="visitas">Visitantes: cargando...</div>
 
 <script>
@@ -54,6 +52,10 @@ Este blog está diseñado para ofrecer una experiencia clara, profesional y en m
       document.getElementById('visitas').innerText = 'Visitantes: ' + data.value;
     });
 </script>
+
+Este blog está diseñado para ofrecer una experiencia clara, profesional y en modo oscuro. ¡Explora y aprende!
+
+
 
 {% include feature_row %}
 
