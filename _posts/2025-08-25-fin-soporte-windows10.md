@@ -13,9 +13,8 @@ header:
   overlay_filter: "0.3"
   show_overlay_excerpt: true
   
-  {% include nav-microsoft.html %}
   
-<div class="post-nav">
+  <div class="post-nav">
   <a href="/" class="nav-btn">🏠 Inicio</a>
   <a href="/microsoft/" class="nav-btn">🪟 Sección Microsoft</a>
   <a href="javascript:history.back()" class="nav-btn">🔙 Regresar</a>
@@ -92,5 +91,6 @@ Microsoft exige TPM 2.0, Secure Boot y CPU moderna. Si no cumples:
 
 ## 🧭 Navegación relacionada
 
-
+  {% include nav-microsoft.html %}
+  
  
