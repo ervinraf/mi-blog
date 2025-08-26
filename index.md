@@ -44,18 +44,17 @@ Bienvenido a mi espacio técnico. Aquí encontrarás análisis, guías y recurso
 - 🌐 VPN: privacidad, navegación segura y acceso remoto  
 
 <body>
+<script>
+  fetch('https://api.countapi.xyz/hit/pcsupportslp.com/visitas')
+    .then(res => res.json())
+    .then(data => {
+      document.getElementById('visitas').innerText = 'Visitantes: ' + data.value;
+    });
+</script>
+</body>
   <!-- Tu contenido principal -->
   <div id="visitas">Visitantes: cargando...</div>
 
-  <!-- Script de CountAPI -->
-  <script>
-    fetch('https://api.countapi.xyz/hit/pcsupportslp.com/visitas')
-      .then(res => res.json())
-      .then(data => {
-        document.getElementById('visitas').innerText = 'Visitantes: ' + data.value;
-      });
-  </script>
-</body>
 Este blog está diseñado para ofrecer una experiencia clara, profesional y en modo oscuro. ¡Explora y aprende!
 
 
