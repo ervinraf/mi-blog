@@ -7,45 +7,46 @@ header:
   overlay_color: "#000"
   overlay_filter: "0.3"
   caption: "Explora los temas del blog"
+classes: wide
+author_profile: true
 ---
+
+## 🗂️ Navegación por categorías
 
 Selecciona una categoría para ver artículos relacionados:
 
-- 🍎 [Apple](/apple/)
-- 🪟 [Microsoft](/microsoft/)
-- 🔐 [Seguridad](/seguridad/)
-- 🌐 [VPN](/vpn/)
+<div class="category-grid">
 
-Este espacio se actualizará automáticamente conforme publiques artículos con etiquetas.
+  <div class="category-item">
+    <a href="/apple/">
+      <img src="/assets/images/apple-header.jpg" alt="Apple">
+      <div class="category-title">🍏 Apple</div>
+      <div class="category-description">macOS, iOS, hardware, software y seguridad. Análisis y configuraciones prácticas.</div>
+    </a>
+  </div>
 
----
+  <div class="category-item">
+    <a href="/microsoft/">
+      <img src="/assets/images/microsoft-header.jpg" alt="Microsoft">
+      <div class="category-title">🪟 Microsoft</div>
+      <div class="category-description">Windows, Office, Azure y productividad empresarial. Guías y noticias técnicas.</div>
+    </a>
+  </div>
 
-## 🗂️ Reseñas destacadas
+  <div class="category-item">
+    <a href="/seguridad/">
+      <img src="/assets/images/seguridad-header.jpg" alt="Seguridad">
+      <div class="category-title">🔐 Seguridad</div>
+      <div class="category-description">Ciberseguridad, firewalls, antivirus y buenas prácticas digitales.</div>
+    </a>
+  </div>
 
-### 🍎 Apple
+  <div class="category-item">
+    <a href="/vpn/">
+      <img src="/assets/images/vpn-header.png" alt="VPN">
+      <div class="category-title">🌐 VPN</div>
+      <div class="category-description">Privacidad digital, navegación segura y acceso sin restricciones.</div>
+    </a>
+  </div>
 
-{% assign apple_posts = site.categories.Apple | sort: 'date' | reverse %}
-{% for post in apple_posts %}
-  {% include archive-single.html %}
-{% endfor %}
-
-### 🪟 Microsoft
-
-{% assign microsoft_posts = site.categories.Microsoft | sort: 'date' | reverse %}
-{% for post in microsoft_posts %}
-  {% include archive-single.html %}
-{% endfor %}
-
-### 🔐 Seguridad
-
-{% assign seguridad_posts = site.categories.Seguridad | sort: 'date' | reverse %}
-{% for post in seguridad_posts %}
-  {% include archive-single.html %}
-{% endfor %}
-
-### 🌐 VPN
-
-{% assign vpn_posts = site.categories.VPN | sort: 'date' | reverse %}
-{% for post in vpn_posts %}
-  {% include archive-single.html %}
-{% endfor %}
+</div>
