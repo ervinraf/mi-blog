@@ -7,7 +7,7 @@ tags: [VPN, privacidad, navegación, redes públicas, protección digital]
 author: Ervin Raf
 excerpt: "¿Crees que una VPN es solo para hackers o expertos en informática? Nada más lejos de la realidad. Aquí te explico, de forma sencilla, por qué tú también deberías usar una VPN."
 header:
-  image: "/assets/posts/vpn/vpn-para-todos-banner.webp"
+  image: "/assets/posts/seguridad/vpn-para-todos-banner.webp"
   caption: "Privacidad y libertad digital al alcance de todos"
   overlay_color: "#000"
   overlay_filter: "0.3"
