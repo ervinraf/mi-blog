@@ -1,7 +1,17 @@
 ---
-layout: category
-title: "🌐 VPN y Privacidad"
-category: Seguridad
-tag: VPN
+title: "VPN"
+layout: single
 permalink: /vpn/
+header:
+  image: "/assets/images/vpn-header.jpg"
+  overlay_color: "#000"
+  overlay_filter: "0.3"
+  caption: "Privacidad y navegación segura sin fronteras"
 ---
+
+Privacidad digital, navegación segura, acceso sin restricciones y protección en redes públicas.  
+Aquí encontrarás contenido técnico y práctico sobre el uso de VPNs, cómo elegir la adecuada y cómo integrarla en tu entorno profesional.
+
+{% if page.url contains '/vpn/' %}
+  {% include nav-vpn.html %}
+{% endif %}
