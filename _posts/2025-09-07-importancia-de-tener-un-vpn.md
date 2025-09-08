@@ -137,4 +137,3 @@ NoxFrame.
 ---
 
 {% include nav-vpn.html %}
-{% include noxpro-box.html %}
