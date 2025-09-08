@@ -20,3 +20,4 @@ Aquí compartiré análisis, configuraciones, recomendaciones y novedades sobre 
 {% if page.url contains '/apple/' %}
   {% include nav-apple.html %}
 {% endif %}
+---
