@@ -131,7 +131,7 @@ También puedes escribirme si necesitas ayuda para instalar una VPN o entender c
 
 > “Tu IP es tu identidad digital. Protegerla es protegerte.”
 
-NoxFrame
+NoxFrame.
 ---
 
 {% include nav-vpn.html %}
