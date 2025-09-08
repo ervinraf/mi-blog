@@ -21,6 +21,10 @@ Este espacio se actualizará automáticamente conforme publiques artículos con 
 
 ## 🗂️ Reseñas destacadas
 
-{% for post in site.categories.Apple %}
-  {% include archive-single.html %}
+{% assign all_categories = "Apple,Microsoft,Seguridad,VPN" | split: "," %}
+{% for category in all_categories %}
+  {% assign posts = site.categories[category] | sort: 'date' | reverse %}
+  {% for post in posts %}
+    {% include archive-single.html %}
+  {% endfor %}
 {% endfor %}
