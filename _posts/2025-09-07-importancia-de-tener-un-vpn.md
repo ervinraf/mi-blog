@@ -71,7 +71,7 @@ Eso se llama **bloqueo geográfico**.
 Con una VPN puedes:
 
 - Cambiar tu ubicación virtual (por ejemplo, parecer que estás en EE.UU. o España).
-- Acceder a contenido restringido.
+
 - Usar servicios que solo están disponibles en ciertos países.
 
 Esto es útil para viajeros, estudiantes, nómadas digitales o simplemente curiosos.
