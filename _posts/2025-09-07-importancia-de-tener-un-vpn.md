@@ -127,10 +127,6 @@ Si tienes dudas, puedo ayudarte a elegir la mejor según tu perfil.
 
 ---
 
-## 🔗 ¿Dónde puedo aprender más?
-
-Lee este y otros artículos en mi blog:
-**[miblog.pcsupportslp.com](https://miblog.pcsupportslp.com)**
 
 También puedes escribirme si necesitas ayuda para instalar una VPN o entender cómo funciona.
 
