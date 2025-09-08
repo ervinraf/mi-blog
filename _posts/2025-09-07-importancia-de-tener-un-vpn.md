@@ -1,4 +1,5 @@
-layout: post
+---
+layout: single
 title: "🔐 ¿Por qué es importante usar una VPN?"
 date: 2025-09-07
 categories: [Seguridad]
@@ -6,7 +7,7 @@ tags: [VPN, privacidad, ciberseguridad, navegación, anonimato]
 author: Ervin Raf
 excerpt: "Una VPN no es solo para expertos en tecnología: es una herramienta esencial para proteger tu privacidad, navegar con seguridad y acceder libremente a contenido en línea."
 header:
-  image: /assets/posts/seguridad/importancia-vpn-banner.webp
+  image: "/assets/posts/seguridad/importancia-vpn-banner.webp"
   caption: "Una VPN protege tu conexión y tu identidad digital"
   overlay_color: "#000"
   overlay_filter: "0.3"
