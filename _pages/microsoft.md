@@ -12,3 +12,7 @@ header:
 
 Todo sobre el mundo Microsoft: Windows, Office, Azure, seguridad empresarial y productividad.  
 Este espacio está dedicado a guías, configuraciones y noticias relevantes del ecosistema Microsoft.
+
+{% if page.url contains '/microsoft/' %}
+  {% include nav-microsoft.html %}
+{% endif %}
