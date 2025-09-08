@@ -3,7 +3,7 @@ title: "VPN"
 layout: single
 permalink: /vpn/
 header:
-  image: "/assets/images/vpn-header.jpg"
+  image: "/assets/images/vpn-header.png"
   overlay_color: "#000"
   overlay_filter: "0.3"
   caption: "Privacidad y navegación segura sin fronteras"
