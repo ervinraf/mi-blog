@@ -16,7 +16,12 @@ author_profile: true
 Explora el universo Apple: macOS, iOS, hardware, software y seguridad.  
 Aquí compartiré análisis técnicos, configuraciones prácticas, recomendaciones y novedades sobre productos Apple.
 
-{% assign apple_posts = site.categories.Apple | sort: 'date' | reverse %}
-{% for post in apple_posts %}
-  {% include archive-single.html %}
-{% endfor %}
+{% assign apple_posts = site.categories.Apple %}
+{% if apple_posts %}
+  {% assign apple_posts = apple_posts | sort: 'date' | reverse %}
+  {% for post in apple_posts %}
+    {% include archive-single.html %}
+  {% endfor %}
+{% else %}
+  <p>No hay publicaciones disponibles en la categoría Apple.</p>
+{% endif %}
