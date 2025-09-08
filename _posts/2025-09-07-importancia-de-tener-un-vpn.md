@@ -136,4 +136,4 @@ También puedes escribirme si necesitas ayuda para instalar una VPN o entender c
 
 ---
 
-{% include nav-seguridad.html %}
+{% include nav-vpn.html %}
