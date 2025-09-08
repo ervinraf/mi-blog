@@ -34,6 +34,7 @@ feature_row:
     url: "/vpn/"
     btn_label: "Ver artículos"
     btn_class: "btn--primary"
+    <script defer src="https://counter.dev/script.js" data-id="TU-ID" data-utcoffset="-6"></script>
 ---
 
 Bienvenido a mi espacio técnico. Aquí encontrarás análisis, guías y recursos sobre:
