@@ -1,18 +1,22 @@
-<div class="nav-grid">
+<div class="section-grid dark-theme">
+  <h2 class="section-title">🌐 VPN y Privacidad</h2>
+  <p class="section-description">Descubre cómo proteger tu conexión, navegar sin restricciones y elegir la VPN adecuada para tu entorno digital.</p>
 
-  {% assign vpn_posts = site.categories.VPN | sort: 'date' | reverse %}
-  {% for post in vpn_posts %}
-    <div class="nav-item">
-      <a href="{{ post.url | relative_url }}">
-        {% if post.header.image %}
-          <img src="{{ post.header.image }}" alt="{{ post.title }}">
-        {% else %}
-          <img src="/assets/images/vpn-placeholder.jpg" alt="VPN">
-        {% endif %}
-        <div class="nav-title">🔹 {{ post.title }}</div>
-        <div class="nav-excerpt">{{ post.excerpt | strip_html | truncate: 120 }}</div>
+  <div class="grid-container">
+    {% assign vpn_posts = site.categories.VPN | sort: 'date' | reverse %}
+    {% for post in vpn_posts %}
+      <a href="{{ post.url | relative_url }}" class="grid-item">
+        <img src="{{ post.image | default: '/assets/images/vpn-placeholder.jpg' }}" alt="{{ post.title }}">
+        <div class="grid-overlay">
+          <h3>{{ post.title }}</h3>
+          <p>{{ post.description | default: post.excerpt }}</p>
+          <span class="grid-tag">
+            {% for tag in post.tags limit: 3 %}
+              {{ tag }}{% unless forloop.last %} · {% endunless %}
+            {% endfor %}
+          </span>
+        </div>
       </a>
-    </div>
-  {% endfor %}
-
+    {% endfor %}
+  </div>
 </div>
