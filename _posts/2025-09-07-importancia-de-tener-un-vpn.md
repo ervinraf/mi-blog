@@ -2,7 +2,7 @@
 layout: single
 title: "🌐 ¿Por qué deberías usar una VPN aunque no seas experto en tecnología?"
 date: 2025-09-07
-categories: [Seguridad]
+categories: [VPN]
 tags: [VPN, privacidad, navegación, redes públicas, protección digital]
 author: Ervin Raf
 excerpt: "¿Crees que una VPN es solo para hackers o expertos en informática? Nada más lejos de la realidad. Aquí te explico, de forma sencilla, por qué tú también deberías usar una VPN."
