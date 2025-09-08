@@ -1,17 +1,21 @@
 ---
-title: "Apple Vision Pro: ¿Revolución o exageración?"
-layout: post
+layout: single
+title: "👓 Apple Vision Pro: ¿Revolución o lujo innecesario?"
 date: 2025-08-14
-categories: [apple]
-tags: [vision-pro, realidad-mixta, apple]
-author: ervin
-excerpt: "Exploramos el impacto del nuevo Apple Vision Pro en el ecosistema tecnológico."
+categories: [Apple]
+tags: [Apple, Vision Pro, realidad aumentada, reseña, hardware]
+author: Ervin Raf
+excerpt: "Apple lanza su dispositivo más ambicioso: Vision Pro. ¿Vale la pena su precio? Aquí te explico sus funciones, limitaciones y lo que realmente aporta."
 header:
-  image: /assets/images/apple-banner.webp
-  caption: "Apple Vision Pro en acción"
+  image: "/assets/images/apple-banner.webp"
+  caption: "La apuesta de Apple por la realidad mixta"
   overlay_color: "#000"
   overlay_filter: "0.3"
-  show_overlay_excerpt: true
+author_profile: true
+read_time: true
+toc: true
+toc_label: "Contenido"
+toc_icon: "glasses"
 ---
 
 <div class="post-nav">

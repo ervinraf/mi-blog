@@ -1,17 +1,16 @@
 ---
-layout: post
-title: "🪟 Fin de soporte de Windows 10: guía completa para usuarios y equipos IT"
+layout: single
+title: "🪟 Fin del soporte para Windows 10: ¿Qué hacer ahora?"
 date: 2025-08-25
 categories: [Microsoft]
-tags: [windows10, soporte, ESU, migración, seguridad, continuidad]
+tags: [Windows 10, fin de soporte, migración, seguridad]
 author: Ervin Raf
-excerpt: "Microsoft finaliza el soporte gratuito de Windows 10 el 14 de octubre de 2025. Esta guía te ayuda a decidir qué hacer, cómo protegerte y qué alternativas existen."
+excerpt: "Microsoft anuncia el fin del soporte para Windows 10. ¿Qué implica esto para usuarios y empresas? Aquí te explico cómo prepararte sin perder funcionalidad."
 header:
-  image: /assets/posts/microsoft/windows10-fin-soporte-banner.webp
-  caption: "Windows 10 llega al final de su ciclo de vida"
+  image: "/assets/posts/microsoft/windows10-fin-soporte-banner.webp"
+  caption: "Adiós a una era, hola a nuevas decisiones"
   overlay_color: "#000"
   overlay_filter: "0.3"
-  show_overlay_excerpt: true
 author_profile: true
 read_time: true
 toc: true

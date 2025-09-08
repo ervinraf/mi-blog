@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: single
 title: "🌐 ¿Por qué deberías usar una VPN aunque no seas experto en tecnología?"
 date: 2025-09-07
 categories: [VPN]

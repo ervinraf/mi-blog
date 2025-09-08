@@ -1,17 +1,16 @@
 ---
-layout: post
-title: "🚨 Ciberseguridad 2025: ¿Estamos preparados para un enemigo que evoluciona?"
+layout: single
+title: "🛡️ Ciberseguridad en 2025: ¿Estamos preparados?"
 date: 2025-08-15
 categories: [Seguridad]
-tags: [ciberseguridad, AI, Zero Trust, multicloud, amenazas]
+tags: [ciberseguridad, amenazas, Zero Trust, protección digital]
 author: Ervin Raf
-excerpt: "Análisis técnico sobre las nuevas formas de ataque en 2025 y cómo prepararse desde una arquitectura resiliente."
+excerpt: "La evolución de las amenazas digitales exige nuevas estrategias. Descubre cómo el enfoque Zero Trust y la automatización están redefiniendo la seguridad."
 header:
-  image: /assets/posts/seguridad/ciberseguridad-2025-banner.png
-  caption: "Amenazas emergentes en entornos multicloud"
+  image: "/assets/posts/seguridad/ciberseguridad-2025-banner.png"
+  caption: "Amenazas emergentes y soluciones modernas"
   overlay_color: "#000"
   overlay_filter: "0.3"
-  show_overlay_excerpt: true
 author_profile: true
 read_time: true
 toc: true
