@@ -1,22 +1,27 @@
 <div class="section-grid dark-theme">
   <h2 class="section-title">🌐 VPN y Privacidad</h2>
-  <p class="section-description">Descubre cómo proteger tu conexión, navegar sin restricciones y elegir la VPN adecuada para tu entorno digital.</p>
+  <p class="section-description">Protege tu conexión, navega sin restricciones y mantén tu privacidad digital con las mejores prácticas y herramientas VPN.</p>
 
   <div class="grid-container">
-    {% assign vpn_posts = site.categories.VPN | sort: 'date' | reverse %}
-    {% for post in vpn_posts %}
-      <a href="{{ post.url | relative_url }}" class="grid-item">
-        <img src="{{ post.image | default: '/assets/images/vpn-placeholder.jpg' }}" alt="{{ post.title }}">
-        <div class="grid-overlay">
-          <h3>{{ post.title }}</h3>
-          <p>{{ post.description | default: post.excerpt }}</p>
-          <span class="grid-tag">
-            {% for tag in post.tags limit: 3 %}
-              {{ tag }}{% unless forloop.last %} · {% endunless %}
-            {% endfor %}
-          </span>
-        </div>
-      </a>
-    {% endfor %}
+    {% assign vpn_posts = site.categories.VPN %}
+    {% if vpn_posts %}
+      {% assign vpn_posts = vpn_posts | sort: 'date' | reverse %}
+      {% for post in vpn_posts %}
+        <a href="{{ post.url | relative_url }}" class="grid-item">
+          <img src="{{ post.image | default: '/assets/images/vpn-placeholder.jpg' }}" alt="{{ post.title }}">
+          <div class="grid-overlay">
+            <h3>{{ post.title }}</h3>
+            <p>{{ post.description | default: post.excerpt }}</p>
+            <span class="grid-tag">
+              {% for tag in post.tags limit: 3 %}
+                {{ tag }}{% unless forloop.last %} · {% endunless %}
+              {% endfor %}
+            </span>
+          </div>
+        </a>
+      {% endfor %}
+    {% else %}
+      <p class="no-posts">Aún no hay publicaciones en la categoría VPN.</p>
+    {% endif %}
   </div>
 </div>
