@@ -17,3 +17,10 @@ Selecciona una categoría para ver artículos relacionados:
 - 🌐 VPN
 
 Este espacio se actualizará automáticamente conforme publiques artículos con etiquetas.
+---
+
+## 🗂️ Reseñas destacadas
+
+{% for post in site.categories.Apple %}
+  {% include archive-single.html %}
+{% endfor %}

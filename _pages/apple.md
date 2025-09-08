@@ -17,10 +17,6 @@ author_profile: true
 Explora el universo Apple: macOS, iOS, hardware, software y seguridad.  
 Aquí compartiré análisis, configuraciones, recomendaciones y novedades sobre productos Apple.
 
----
-
-## 🗂️ Reseñas destacadas
-
-{% for post in site.categories.Apple %}
-  {% include archive-single.html %}
-{% endfor %}
+{% if page.url contains '/apple/' %}
+  {% include nav-apple.html %}
+{% endif %}
