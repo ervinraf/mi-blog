@@ -1,0 +1,23 @@
+{% assign categoria = page.categories[0] | downcase %}
+
+<div class="noxpro-box">
+  <div class="noxpro-avatar">
+    <img src="/assets/images/noxpro-avatar.png" alt="NoxPro">
+  </div>
+  <div class="noxpro-content">
+    <h4>🧠 NoxPro te acompaña</h4>
+
+    {% case categoria %}
+      {% when "vpn" %}
+        <p>¿Red pública? Activa tu VPN. Es tu escudo invisible. Vamos a proteger tu navegación sin complicaciones.</p>
+      {% when "seguridad" %}
+        <p>La ciberseguridad no es solo para empresas. Aquí te explico cómo blindar tu entorno digital desde cero.</p>
+      {% when "apple" %}
+        <p>¿Nuevo dispositivo Apple? Te ayudo a sacarle el máximo provecho con configuraciones prácticas y seguras.</p>
+      {% when "microsoft" %}
+        <p>Windows, Office, Azure... Si suena complejo, lo simplificamos juntos. Aquí tienes lo esencial.</p>
+      {% else %}
+        <p>Este contenido técnico puede parecer denso, pero lo vamos a desmenuzar paso a paso. Empecemos por lo esencial.</p>
+    {% endcase %}
+  </div>
+</div>
