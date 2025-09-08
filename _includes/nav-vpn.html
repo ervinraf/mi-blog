@@ -1,11 +1,18 @@
 <div class="nav-grid">
 
-  <div class="nav-item">
-    <a href="/vpn/2025/09/07/importancia-de-tener-un-vpn.html">
-      <img alt="Importancia de tener un VPN">
-      <div class="nav-title">🔹 Importancia de tener un VPN</div>
-      <div class="nav-excerpt">Protege tu conexión, navega sin restricciones y mantén tu privacidad digital.</div>
-    </a>
-  </div>
+  {% assign vpn_posts = site.categories.VPN | sort: 'date' | reverse %}
+  {% for post in vpn_posts %}
+    <div class="nav-item">
+      <a href="{{ post.url | relative_url }}">
+        {% if post.header.image %}
+          <img src="{{ post.header.image }}" alt="{{ post.title }}">
+        {% else %}
+          <img src="/assets/images/vpn-placeholder.jpg" alt="VPN">
+        {% endif %}
+        <div class="nav-title">🔹 {{ post.title }}</div>
+        <div class="nav-excerpt">{{ post.excerpt | strip_html | truncate: 120 }}</div>
+      </a>
+    </div>
+  {% endfor %}
 
 </div>
