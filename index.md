@@ -34,7 +34,6 @@ feature_row:
     url: "/vpn/"
     btn_label: "Ver artículos"
     btn_class: "btn--primary"
-    
 ---
 
 Bienvenido a mi espacio técnico. Aquí encontrarás análisis, guías y recursos sobre:
