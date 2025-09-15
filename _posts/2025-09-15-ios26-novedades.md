@@ -7,7 +7,7 @@ tags: [iOS26, Apple, LiquidGlass, iPhone, actualización]
 author: Ervin Raf
 excerpt: "Apple lanza iOS 26 con el mayor rediseño en una década. Descubre qué cambia, qué modelos son compatibles y cómo prepararte para instalarlo sin problemas."
 header:
-  image: /assets/posts/apple/ios26-marquesina.webp
+  image: /assets/images/ios26-marquesina.webp
   caption: "iOS 26 redefine la experiencia visual en iPhone"
   overlay_color: "#000"
   overlay_filter: "0.3"
