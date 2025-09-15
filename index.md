@@ -36,20 +36,23 @@ feature_row:
     btn_class: "btn--primary"
 ---
 
-Bienvenido a mi espacio técnico. Aquí encontrarás análisis, guías y recursos sobre:
+<div class="intro-text" style="margin: 2rem 0; padding: 1rem 2rem; background-color: #111; border-radius: 12px;">
+  <h2 style="color: #fff;">👋 Bienvenido a mi espacio técnico</h2>
+  <p style="color: #ccc;">Aquí encontrarás análisis, guías y recursos sobre:</p>
+  <ul style="color: #ccc;">
+    <li>🍎 <strong>Apple</strong>: ecosistema, configuraciones y novedades</li>
+    <li>🪟 <strong>Microsoft</strong>: productividad, seguridad y herramientas</li>
+    <li>🔐 <strong>Seguridad digital</strong>: buenas prácticas y protección de datos</li>
+    <li>🌐 <strong>VPN</strong>: privacidad, navegación segura y acceso remoto</li>
+  </ul>
+  <p style="color: #ccc;">Este blog está diseñado para ofrecer una experiencia clara, profesional y en modo oscuro. ¡Explora y aprende!</p>
+</div>
 
-- 🍎 Apple: ecosistema, configuraciones y novedades  
-- 🪟 Microsoft: productividad, seguridad y herramientas  
-- 🔐 Seguridad digital: buenas prácticas y protección de datos  
-- 🌐 VPN: privacidad, navegación segura y acceso remoto  
-
-<body>
-
-
-
-Este blog está diseñado para ofrecer una experiencia clara, profesional y en modo oscuro. ¡Explora y aprende!
-
+<div class="cta-box" style="margin: 2rem 0; padding: 1.5rem; background-color: #222; border-radius: 12px; text-align: center;">
+  <h3 style="color: #fff; font-size: 1.5rem;">🛠️ ¿Requieres soporte técnico?</h3>
+  <p style="color: #ccc; font-size: 1rem;">Accede a diagnósticos, asistencia profesional y soluciones personalizadas.</p>
+  <a href="https://www.pcsupportslp.com" class="btn btn--primary" style="margin-top: 1rem; display: inline-block;">Ir a pcsupportslp.com</a>
+</div>
 
 {% include feature_row %}
-
 
