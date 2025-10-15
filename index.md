@@ -36,6 +36,10 @@ feature_row:
     btn_class: "btn--primary"
 ---
 
+<!-- Google AdSense Script -->
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4045603144573394"
+     crossorigin="anonymous"></script>
+
 <div class="intro-text" style="margin: 2rem 0; padding: 1rem 2rem; background-color: #111; border-radius: 12px;">
   <h2 style="color: #fff;">👋 Bienvenido a mi espacio técnico</h2>
   <p style="color: #ccc;">Aquí encontrarás análisis, guías y recursos sobre:</p>
@@ -55,4 +59,3 @@ feature_row:
 </div>
 
 {% include feature_row %}
-
