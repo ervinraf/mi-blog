@@ -25,6 +25,19 @@ toc_icon: "shield"
     <p>La ciberseguridad se ha convertido en un pilar estratégico para empresas, gobiernos y usuarios. En 2025, los ataques son más sofisticados, automatizados y persistentes. Aquí te comparto las tendencias más relevantes y cómo proteger tu infraestructura.</p>
   </header>
 
+  <!-- Bloque de anuncio AdSense -->
+  <div style="margin: 2rem 0; text-align: center;">
+    <ins class="adsbygoogle"
+         style="display:block"
+         data-ad-client="ca-pub-4045603144573394"
+         data-ad-slot="1234567890"
+         data-ad-format="auto"
+         data-full-width-responsive="true"></ins>
+    <script>
+         (adsbygoogle = window.adsbygoogle || []).push({});
+    </script>
+  </div>
+
   <section class="post-content">
     <h2>⚠️ Principales amenazas actuales</h2>
     <ul>
