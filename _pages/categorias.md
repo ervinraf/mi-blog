@@ -48,5 +48,11 @@ Selecciona una categoría para ver artículos relacionados:
       <div class="category-description">Privacidad digital, navegación segura y acceso sin restricciones.</div>
     </a>
   </div>
-
+<div class="category-item">
+    <a href="/infraestructura/">
+      <img src="/assets/images/infraestructura-header.png" alt="Infraestructura">
+      <div class="category-title">🧱 Infraestructura</div>
+      <div class="category-description">Servidores, DNS, cloud, automatización y arquitectura digital. Guías para técnicos y empresas.</div>
+    </a>
+  </div>
 </div>
