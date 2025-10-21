@@ -1,0 +1,27 @@
+<div class="section-grid dark-theme">
+  <h2 class="section-title">🧱 Infraestructura</h2>
+  <p class="section-description">Servidores, DNS, cloud, automatización y arquitectura digital. Guías para técnicos y empresas que buscan resiliencia y eficiencia.</p>
+
+  <div class="grid-container">
+    {% assign infraestructura_posts = site.categories.Infraestructura %}
+    {% if infraestructura_posts %}
+      {% assign infraestructura_posts = infraestructura_posts | sort: 'date' | reverse %}
+      {% for post in infraestructura_posts %}
+        <a href="{{ post.url | relative_url }}" class="grid-item">
+          <img src="{{ post.image | default: '/assets/images/infraestructura-placeholder.jpg' }}" alt="{{ post.title }}">
+          <div class="grid-overlay">
+            <h3>{{ post.title }}</h3>
+            <p>{{ post.description | default: post.excerpt }}</p>
+            <span class="grid-tag">
+              {% for tag in post.tags limit: 3 %}
+                {{ tag }}{% unless forloop.last %} · {% endunless %}
+              {% endfor %}
+            </span>
+          </div>
+        </a>
+      {% endfor %}
+    {% else %}
+      <p class="no-posts">Aún no hay publicaciones en la categoría Infraestructura.</p>
+    {% endif %}
+  </div>
+</div>
