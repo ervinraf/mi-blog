@@ -48,11 +48,21 @@ Selecciona una categoría para ver artículos relacionados:
       <div class="category-description">Privacidad digital, navegación segura y acceso sin restricciones.</div>
     </a>
   </div>
-<div class="category-item">
+
+  <div class="category-item">
     <a href="/infraestructura/">
       <img src="/assets/images/infraestructura-header.png" alt="Infraestructura">
       <div class="category-title">🧱 Infraestructura</div>
       <div class="category-description">Servidores, DNS, cloud, automatización y arquitectura digital. Guías para técnicos y empresas.</div>
     </a>
   </div>
+
+  <div class="category-item">
+    <a href="/backup/">
+      <img src="/assets/images/backup-header.png" alt="Backup">
+      <div class="category-title">📦 Backup</div>
+      <div class="category-description">Respaldo seguro, cifrado y recuperación automatizada. Soluciones técnicas para proteger tu información.</div>
+    </a>
+  </div>
+
 </div>
