@@ -34,6 +34,12 @@ feature_row:
     url: "/vpn/"
     btn_label: "Ver artículos"
     btn_class: "btn--primary"
+  - image_path: /assets/images/infraestructura-header-bnw.png
+    title: "Infraestructura"
+    excerpt: "Servidores, DNS, cloud y automatización técnica"
+    url: "/infraestructura/"
+    btn_label: "Ver artículos"
+    btn_class: "btn--primary"
 ---
 
 <!-- Google AdSense Script -->
