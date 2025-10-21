@@ -40,6 +40,12 @@ feature_row:
     url: "/infraestructura/"
     btn_label: "Ver artículos"
     btn_class: "btn--primary"
+  - image_path: /assets/images/backup-header-bnw.png
+    title: "Backup"
+    excerpt: "Respaldo seguro, cifrado y recuperación automatizada"
+    url: "/backup/"
+    btn_label: "Ver artículos"
+    btn_class: "btn--primary"
 ---
 
 <!-- Google AdSense Script -->
