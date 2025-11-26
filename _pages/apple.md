@@ -18,9 +18,9 @@ Aquí compartiré análisis técnicos, configuraciones prácticas, recomendacion
 
 <div class="section-grid dark-theme">
   <div class="grid-container">
-    {% assign apple_posts = site.categories.Apple %}
-    {% if apple_posts %}
-      {% assign apple_posts = apple_posts | sort: 'date' | reverse %}
+    {% assign apple_posts = site.posts | where_exp: "item", "item.categories contains 'Apple'" %}
+    {% assign apple_posts = apple_posts | sort: "date" | reverse %}
+    {% if apple_posts.size > 0 %}
       {% for post in apple_posts %}
         <a href="{{ post.url | relative_url }}" class="grid-item">
           <img src="{{ post.image | default: '/assets/images/apple-placeholder.jpg' }}" alt="{{ post.title }}">
